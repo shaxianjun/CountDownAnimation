@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <!-- 圆形背景，待倒计时动画结束之后，变成可以点击的按钮 -->
+
+    <ImageView
+        android:id="@+id/grab_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_grab_btn_bg" />
+
+    <!-- 旋转的动画 -->
+
+    <ImageView
+        android:id="@+id/rotation_anim_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/count_down_icon_rotation" />
+
+    <!-- 月牙型的阴影 -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_grab_btn_shadow" />
+    <!-- 倒计时动画 -->
+
+    <ImageView
+        android:id="@+id/countdown_anim_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_grab" />
+
+</RelativeLayout>
