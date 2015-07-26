@@ -1,7 +1,5 @@
-/**
- * 
- */
-package com.kuaima.androidapp;
+
+package com.countdown.demo;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

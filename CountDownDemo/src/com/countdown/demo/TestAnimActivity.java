@@ -1,4 +1,4 @@
-package com.kuaima.androidapp;
+package com.countdown.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
